@@ -1,0 +1,1032 @@
+@font-face {
+    font-family: 'Neue Display Random';
+    src: url('./font/NeueDisplay-RegularRandom.woff2') format('woff2'),
+        url('./font/NeueDisplay-RegularRandom.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Display Random';
+    src: url('./font/NeueDisplay-Random.woff2') format('woff2'),
+        url('./font/NeueDisplay-Random.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Display';
+    src: url('./font/NeueDisplay-Black.woff2') format('woff2'),
+        url('./font/NeueDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue';
+    src: url('./font/Neue-RegularItalic.woff2') format('woff2'),
+        url('./font/Neue-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue';
+    src: url('./font/Neue-Regular.woff2') format('woff2'),
+        url('./font/Neue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue';
+    src: url('./font/Neue-Bold.woff2') format('woff2'),
+        url('./font/Neue-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Neue', BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+    font-size: 1.8rem;
+    background-color: black;
+    color: white;
+    word-break: keep-all;
+    cursor: default;
+    height: 100vh;
+}
+
+header {
+    margin: 4rem;
+    margin-bottom: 0;
+}
+
+header img {
+    width: 150px;
+}
+
+.main {
+    position: relative;
+}
+
+.main img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 85rem;
+}
+
+.parsons-benefit--logo {
+    position: relative;
+    z-index: 99;
+}
+
+.parsons-benefit--logo h1 {
+    font-family: "Neue Display Random";
+    font-size: 8.4rem;
+    position: absolute;
+}
+
+.parsons-benefit--logo h1:first-child {
+    top: 21.7rem;
+    left: 26.7rem;
+}
+
+.parsons-benefit--logo h1:last-child {
+    top: 30.6rem;
+    right: 35.7rem;
+}
+
+#year {
+    font-family: "Neue";
+    font-weight: normal;
+    padding-left: 2rem;
+}
+
+.parsons-anniversary {
+    position: relative;
+    top: 6rem;
+    left: 43.5rem;
+    width: 18%;
+    font-size: 2.2rem;
+    font-weight: normal;
+    line-height: 1.3;
+}
+
+.date {
+    position: relative;
+    font-family: "Neue";
+    font-weight: bold;
+    left: 84rem;
+    top: 7rem;
+    font-size: 5.4rem;
+}
+
+.contents {
+    position: relative;
+    top: 80rem;
+}
+
+.container {
+    position: relative;
+}
+
+.container--heading, .honoring--heading {
+    font-family: "Neue Display Random";
+    font-weight: normal;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#honoring-container {
+    text-align: center;
+}
+
+.honoring--heading{
+    margin-bottom: 8rem;
+}
+
+.honoring--item {
+    margin-bottom: 5rem;
+}
+
+.honoring--item:last-child {
+    margin-bottom: 10rem;
+}
+
+.honoring--item h4{
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+}
+
+.honoring--item sub{
+    font-size: 1.8rem;
+}
+
+#program-background {
+    position: absolute;
+    top: 15rem;
+    background-color: #70B9BC;
+    width: 100vw;
+    height: 183rem;
+    z-index: -1;
+}
+
+.container-header {
+    position: relative;
+    margin-bottom: 6rem;
+}
+
+.container--heading {
+    position: relative;
+    z-index: 10;
+    bottom: 6rem;
+}
+
+.container-header img {
+    display: block;
+    position: relative;
+    left: 50.5%;
+    transform: translateX(-50%);    
+    width: 50%;
+}
+
+.program--item {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 6rem;
+    color: black;
+}
+
+.program--item h4 {
+    margin-bottom: 2.5rem;
+}
+
+.program--margin-bottom {
+    margin-bottom: 1rem;
+}
+
+.program--item sub {
+    font-style: italic;
+    font-size: 1.6rem;
+    display: block;
+}
+
+.sub--margin-top {
+    margin-top: 1rem;
+}
+
+.sub--margin-bottom {
+    margin-bottom: 5px;
+}
+
+.program--item:last-child {
+    margin-bottom: 10rem;
+}
+
+#honoree-background {
+    position: absolute;
+    top: 15.2rem;
+    width: 100vw;
+    height: 445.6rem;
+    z-index: -1;
+    background-color: #E9ACBA;
+}
+
+.award {
+    position: relative;
+    left: 15%;
+    width: 70%;
+    color: black;
+    margin-bottom: 7rem;
+}
+
+.award-title {
+    display: inline-block;
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.award-description {
+    line-height: 1.5;
+}
+
+.honoree--item {
+    position: relative;
+    left: 15%;
+    width: 70%;
+    color: black;
+    margin-bottom: 8rem;
+}
+
+.honoree-name {
+    margin-bottom: 4rem;
+}
+
+.honoree-name h4 {
+    font-family: "Neue Display";
+    font-size: 3rem;
+    margin-bottom: 8px;
+}
+
+.honoree-name sub {
+    font-size: 1.8rem;
+}
+
+.honoree-bio p {
+    width: 101%;
+    line-height: 1.5;
+    font-size: 1.6rem;
+}
+
+.honoree-bio p:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.width-small {
+    width: 99% !important;
+}
+
+.honoree--margin-big {
+    margin-bottom: 12rem;
+}
+/* 
+.vr {
+    position: absolute;
+    top: 0;
+    height: 1000rem;
+    border-left: 1px solid red;
+    z-index: 9999999;
+    left: 50vw;
+} */
+
+#supporters-background {
+    position: absolute;
+    top: 14.8rem;
+    width: 100vw;
+    height: 210rem;
+    z-index: -1;
+    background-color: #95BEE4;
+}
+
+.supporters-item-container {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+}
+
+.supporters-item--column {
+    width: 45%;
+}
+
+.supporters--item {
+    color: black;
+    line-height: 1.3;
+    margin-bottom: 3.5rem;
+}
+
+.supporters-item--column .title {
+    font-family: "Neue Display Random";
+    font-weight: 900;
+    font-size: 2.2rem;
+    margin-bottom: 3.5rem;
+}
+
+.supporters-item--column .sub-title {
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+.supporters-item--column .list {
+    line-height: 1.8;
+}
+
+#leadership-background {
+    position: absolute;
+    top: 14.8rem;
+    width: 100vw;
+    height: 210rem;
+    z-index: -1;
+    background-color: #E9D4AC;
+}
+
+#leadership--heading {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 30%;
+    bottom: 3rem;
+    line-height: 1.2;
+}
+
+.leadership-item-container {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+}
+
+.leadership-item--column {
+    width: 45%;
+}
+
+.leadership--item {
+    color: black;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+}
+
+.leadership--item:nth-child(3), .leadership--item:nth-child(5) {
+    margin-bottom: 4rem;
+}
+
+.leadership-item--column .title {
+    font-family: "Neue Display Random";
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.leadership-item--column .list {
+    line-height: 1.8;
+}
+
+#footer-container {
+    padding-bottom: 10rem;
+}
+
+.student-credit-container {
+    margin-top: 10rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.student-credit-container p:not(:last-child) {
+    margin-bottom: 3rem;
+}
+
+.student-credit-container p:last-child {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 35%;
+    line-height: 1.5;
+}
+
+/* 13in laptop */
+@media screen and (max-width: 90em) { 
+    .parsons-benefit--logo h1:first-child {
+        left: 14.7rem;
+    }
+    
+    .parsons-benefit--logo h1:last-child {
+        right: 23.5rem;
+    }
+
+    .parsons-anniversary {
+        left: 31.5rem;
+    }
+
+    .date {
+        left: 72rem;
+        top: 8rem;
+    }
+
+    #honoree-background {
+        height: 520rem;
+    }
+
+    .student-credit-container p:first-child {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 65%;
+    }
+
+    .student-credit-container p:last-child {
+        width: 40%;
+    }
+}
+
+/* iPad pro 11in landscape */
+@media screen and (max-width: 75em) { 
+    .parsons-benefit--logo h1:first-child {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .parsons-benefit--logo h1:last-child {
+        right: 20.2rem;
+    }
+
+    .parsons-anniversary {
+        left: 19.5rem;
+        width: 20%;
+    }
+
+    #year {
+        padding-left: 0;
+    }
+
+    #program-background {
+        height: 193rem;
+    }
+
+    #honoree-background {
+        top: 15rem;
+        height: 680rem;
+    }
+
+    #supporters-background {
+        height: 260rem;
+    }
+
+    #leadership-background {
+        top: 15rem;
+        height: 198rem;
+    }
+
+    .leadership-item-container {
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10rem;
+    }
+    
+    .leadership-item--column {
+        width: 45%;
+    }
+
+    .student-credit-container p:first-child {
+        width: 72%;
+    }
+
+    .student-credit-container p:last-child {
+        width: 60%;
+    }
+}
+
+/* iPad pro 12.9in portrait */
+@media screen and (max-width: 68.75em) {     
+    .parsons-benefit--logo h1:last-child {
+        right: 12.5rem;
+    }
+
+    .parsons-anniversary {
+        left: 11rem;
+        width: 30%;
+    }
+
+    .date {
+        left: 69rem;
+    }
+
+    .container-header img {
+        left: 50.4%;
+        width: 80vw;
+    }
+
+    .supporters-item-container {
+        width: 85%;
+    }
+    
+    .supporters-item--column {
+        width: 45%;
+    }
+    
+    
+    #leadership-background {
+        height: 211rem;
+    }
+
+    #leadership--heading {
+        width: 40%;
+    }
+
+    .leadership-item-container {
+        width: 85%;
+    }
+    
+
+    .student-credit-container p:first-child {
+        width: 80%;
+    }
+
+    .student-credit-container p:last-child {
+        width: 55%;
+    }
+}
+
+/* iPad pro 11in portrait */
+@media screen and (max-width: 56.25em) { 
+    header img {
+        width: 120px;
+    }
+
+    .main img {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100rem;
+    } 
+
+    .contents {
+        position: relative;
+        top: 85rem;
+    }  
+    
+    .parsons-benefit--logo h1{
+        font-size: 7rem;
+    }
+
+    .parsons-benefit--logo h1:first-child {
+        top: 28.2rem;
+    }
+    
+    .parsons-benefit--logo h1:last-child {
+        top: 36rem;
+        right: 9.4rem;
+    }
+
+    .parsons-anniversary {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 73rem;
+        width: 45%;
+        font-size: 2.8rem;
+        text-align: center;
+    }
+
+    .date {
+        left: 53rem;
+        top: 13.5rem;
+    }
+
+    .container-header img {
+        left: 50.4%;
+        width: 102vw;
+    }
+
+    #honoree-background {
+        top: 18rem;
+    }
+
+    #leadership-background {
+        top: 9rem;
+        height: 220rem;
+    }
+
+    #leadership--heading {
+        width: 60%;
+    }
+
+    #footer-divider {
+        width: 136vw;
+    }
+
+    .student-credit-container p:first-child {
+        width: 83%;
+    }
+
+    .student-credit-container p:last-child {
+        width: 65%;
+    }
+}
+
+/* iPad pro 9.7in portrait */
+@media screen and (max-width: 50em) { 
+    .parsons-benefit--logo h1:last-child {
+        right: 6.2rem;
+    }
+
+    .date {
+        left: 49.5rem;
+    }
+
+    .student-credit-container p:last-child {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 37.5em) { 
+    header {
+        margin-left: 2rem;
+    }
+    header img {
+        width: 82px;
+    }
+
+    .main {
+        margin-top: 2rem;
+    }
+
+    .main img {
+        left: 52%;
+        width: 550px;
+    } 
+
+    .parsons-benefit--logo h1{
+        font-size: 4rem;
+    }
+
+    .parsons-benefit--logo h1:first-child {
+        top: 26.6rem;
+    }
+    
+    .parsons-benefit--logo h1:last-child {
+        top: 31rem;
+        right: 3.2rem;
+    }
+
+    .parsons-anniversary {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 43rem;
+        width: 60%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .date {
+        left: 2rem;
+        font-size: 3rem;
+        font-weight: normal;
+        top: 17rem;
+    }
+
+    .contents {
+        position: relative;
+        top: 40rem;
+    } 
+
+    .honoring--heading {
+        text-align: left;
+        font-size: 2.4rem;
+        padding-top: 3.5rem;
+    }
+    
+    #honoring-container {
+        text-align: left;
+    }
+    
+    .honoring--heading{
+        margin-left: 2rem;
+        margin-bottom: 3.5rem;
+    }
+
+    .honoring--item {
+        margin-left: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .honoring--item:last-child {
+        margin-bottom: 7rem;
+    }
+
+    .honoring--item h4 {
+        font-size: 2.6rem;
+        margin-bottom: 0;
+    }
+    
+    .honoring--item sub{
+        font-size: 1.4rem;
+    }
+
+    .honoring--item:nth-child(4) h4 {
+        margin-bottom: 1rem;
+    }
+
+    .honoring--item:nth-child(4) sub {
+        display: block;
+        width: 70%;
+        line-height: 1.5;
+    }
+
+    .honoring--item:nth-child(5) h4 {
+        margin-bottom: 1rem;
+    }
+
+    .honoring--item:nth-child(5) sub {
+        display: block;
+        width: 90%;
+        line-height: 1.5;
+    }
+
+    .container-header img {
+        left: 51%;
+        width: 120vw;
+    }
+
+    .container-header {
+        margin-bottom: 3rem;
+    }
+    
+    .container--heading {
+        bottom: 15rem;
+        font-size: 2.4rem;
+    }
+
+    #program-background {
+        height: 120rem;
+    }
+
+    .program--item {
+        text-align: left;
+        font-size: 1.8rem;
+        margin-bottom: 3.5rem;
+        margin-left: 2rem;
+    }
+    
+    .program--item h4 {
+        margin-bottom: 1.2rem;
+    }
+    
+    .program--margin-bottom {
+        margin-bottom: 4px;
+    }
+    
+    .program--item sub {
+        font-size: 1.5rem;
+    }
+    
+    .sub--margin-top {
+        margin-top: 4px;
+    }
+    
+    .sub--margin-bottom {
+        margin-bottom: 5px;
+    }
+    
+    .program--item:last-child {
+        margin-bottom: 7rem;
+    }
+
+    #honoree-background {
+        top: 10rem;
+        height: 115rem;
+    }
+    
+    .award {
+        left: 2rem;
+        width: calc(100vw - 4rem);
+        margin-right: 2rem;
+        margin-bottom: 4rem;
+    }
+    
+    .award-title {
+        font-size: 1.8rem;
+        margin-bottom: 1.2rem;
+    }
+    
+    .award-description {
+        font-size: 1.6rem;
+    }
+    
+    .honoree--item {
+        left: 2rem;
+        width: calc(100vw - 4rem);
+        margin-bottom: 3rem;
+    }
+
+    .honoree--item:last-child {
+        margin-bottom: 7rem;
+    }
+    
+    .honoree-name {
+        margin-bottom: 0;
+    }
+    
+    .honoree-name h4 {
+        font-size: 2rem;
+        margin-bottom: -1px;
+    }
+    
+    .honoree-name sub {
+        font-size: 1.3rem;
+        line-height: 1;
+    }
+
+    .honoree-bio {
+        display: none;
+    }
+    
+    .honoree--margin-big {
+        margin-bottom: 7rem;
+    }
+
+    #supporters-background {
+        top: 0rem;
+        height: 280rem;
+    }
+
+    .supporters-item-container, .leadership-item-container {
+        width: calc(100vw - 4rem);
+        flex-wrap: wrap;
+        margin-bottom: 7rem;
+    }
+
+    .leadership-item--column, .supporters-item--column {
+        width: calc(100vw - 4rem);
+    }
+
+    .supporters--item, .leadership--item {
+        font-size: 1.4rem;
+        line-height: 1.3;
+    }
+
+    .supporters-item--column .title {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+    
+    .supporters-item--column .sub-title {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .supporters-item--column:last-child .supporters--item:last-child {
+        margin-bottom: 0;
+    }
+
+    #leadership-background {
+        top: 9rem;
+        height: 280rem;
+    }
+
+    #leadership-header {
+        margin-bottom: 5rem;
+    }
+
+    #leadership--heading {
+        width: 90%;
+        bottom: 10rem;
+    }
+
+    .leadership-item--column:first-child {
+        margin-bottom: 4rem;
+    }
+
+    .leadership--item {
+        margin-bottom: 1.3rem;
+    }
+    
+    .leadership--item:nth-child(3), .leadership--item:nth-child(5) {
+        margin-bottom: 4rem;
+    }
+    
+    .leadership-item--column .title {
+        font-size: 1.5rem;
+    }
+    
+    .leadership-item--column .list {
+        line-height: 1.8;
+    }
+
+    #footer-divider {
+        width: 136vw;
+    }
+
+    .student-credit-container {
+        margin-top: 3.5rem;
+        left: 0rem;
+        transform: translateX(0);
+        font-size: 1.4rem;
+        text-align: left;
+    }
+    
+    .student-credit-container p:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+    
+    .student-credit-container p:first-child {
+        width: calc(100vw - 4rem);
+    }
+
+    .student-credit-container p:nth-child(2) {
+        position: relative;
+        left: 2rem;
+        font-size: 1.3rem;
+        width: calc(100vw - 4rem);
+    }
+
+    .student-credit-container p:last-child {
+        font-size: 1.2rem;
+        width: calc(100vw - 4rem);
+    }
+}
+
+@media screen and (max-width: 24.5em) { 
+    .honoring--item h4 {
+        font-size: 2.4rem;
+        margin-bottom: 0;
+    }
+    
+    .container--heading {
+        bottom: 14rem;
+        font-size: 2.4rem;
+    }
+
+    #program-background {
+        height: 120rem;
+    }
+    
+    .program--item sub {
+        font-size: 1.4rem;
+    }
+    
+    .sub--margin-bottom {
+        margin-bottom: 2px;
+    }
+
+    #leadership-background {
+        top: 9rem;
+        height: 270rem;
+    }
+
+    .student-credit-container p:nth-child(1) {
+        font-size: 1.2rem;
+    }
+    
+    .student-credit-container p:nth-child(2) {
+        font-size: 1.1rem;
+    }
+
+    .student-credit-container p:last-child {
+        font-size: 1.1rem;
+    }
+}
+
