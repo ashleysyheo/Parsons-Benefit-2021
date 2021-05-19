@@ -191,7 +191,7 @@ header img {
     top: 15rem;
     background-color: #70B9BC;
     width: 100vw;
-    height: 183rem;
+    height: 190rem;
     z-index: -1;
 }
 
@@ -313,15 +313,6 @@ header img {
 .honoree--margin-big {
     margin-bottom: 12rem;
 }
-/* 
-.vr {
-    position: absolute;
-    top: 0;
-    height: 1000rem;
-    border-left: 1px solid red;
-    z-index: 9999999;
-    left: 50vw;
-} */
 
 #supporters-background {
     position: absolute;
@@ -772,7 +763,7 @@ header img {
 
     .honoring--item:nth-child(4) sub {
         display: block;
-        width: 70%;
+        width: calc(100vw - 4rem);
         line-height: 1.5;
     }
 
@@ -801,7 +792,7 @@ header img {
     }
 
     #program-background {
-        height: 120rem;
+        height: 123rem;
     }
 
     .program--item {
@@ -838,6 +829,10 @@ header img {
     #honoree-background {
         top: 10rem;
         height: 115rem;
+    }
+
+    #honoree--heading {
+        bottom: 14.5rem;
     }
     
     .award {
@@ -893,6 +888,10 @@ header img {
         height: 280rem;
     }
 
+    #supporters--heading {
+        bottom: 16rem;
+    }
+
     .supporters-item-container, .leadership-item-container {
         width: calc(100vw - 4rem);
         flex-wrap: wrap;
@@ -924,7 +923,7 @@ header img {
 
     #leadership-background {
         top: 9rem;
-        height: 280rem;
+        height: 270rem;
     }
 
     #leadership-header {
@@ -933,7 +932,7 @@ header img {
 
     #leadership--heading {
         width: 90%;
-        bottom: 10rem;
+        bottom: 12rem;
     }
 
     .leadership-item--column:first-child {
@@ -946,6 +945,10 @@ header img {
     
     .leadership--item:nth-child(3), .leadership--item:nth-child(5) {
         margin-bottom: 4rem;
+    }
+
+    #life-trustees {
+        margin-bottom: 0;
     }
     
     .leadership-item--column .title {
