@@ -789,6 +789,7 @@ header img {
     .container--heading {
         bottom: 15rem;
         font-size: 2.4rem;
+        line-height: 1.2;
     }
 
     #program-background {
